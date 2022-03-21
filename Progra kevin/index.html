@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>progra</title>
+
+</head>
+<body>
+    
+    <!--Navegacion-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Productos</a>
+    </nav>
+
+    <div class="Contenedor">
+        <!--APLICACION-->
+        <div id="App" class="fila 5">
+            <!--formulario-->
+            <div class="columna 4">
+                <div class="tarjeta">
+                    <div class="tarjeta-header">
+                        <h4>agregar producto</h4>
+                    </div>
+                    <form id="formulario-producto" class="tarjeta-cuerpo">
+                        <div class="formulario-grupos">
+                            <input
+                            type="submit"
+                            id="Nombre"
+                            placeholder="Nombre producto"
+                            class="Control-formulario"
+                            >
+                        </div>
+                        <input 
+                        type="text"
+                        value="Guardar"
+                        class="btn btn-primario btn-bloque">
+
+                    </form>
+                </div>
+            </div><!--termina formulario-->
+
+            <!--Lista de productos-->
+            <div id="lista-productos" class="columna-8"></div>
+
+        </div>
+    </div>
+    <script src="App.js"></script>
+
+
+
+</body>
+</html>
